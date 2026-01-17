@@ -253,3 +253,33 @@ Subscribtion Section
     border-radius: 12px;
     padding: 22px 0 22px 22px;
 }
+
+/* =============================================
+Footer Section
+============================================= */
+
+.footer-section{
+    background-color: #111010;
+    text-align: center;
+    padding: 121px 0 135px 0;
+}
+
+.footer-section>h2{
+    color: #E55473;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.footer-section>h2>span{
+    color: #FFFFFF;
+}
+
+.footer-section>p{
+    color: #c2aeae;
+    margin-bottom: 32px;
+}
+
+.footer-section>h4{
+    color: #585050;
+    font-size: 16px;
+}
