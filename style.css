@@ -160,3 +160,60 @@ Services Section
     font-size: 23px;
     font-weight: 500;
 }
+
+/* =============================================
+Services Section
+============================================= */
+
+.discount {
+    background-color: #e554732c;
+    text-align: center;
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+}
+
+.dis-content>h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.dis-content>h2>span {
+    color: #E55473;
+}
+
+.dis-content>p {
+    margin-bottom: 32px;
+}
+
+/* =============================================
+Card Section
+============================================= */
+
+.cards{
+    margin-bottom: 128px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content>h2 {
+    margin-bottom: 24px;
+}
+
+.card-content>p {
+    margin-bottom: 48px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card-img>img {
+    border-radius: 5px;
+}
