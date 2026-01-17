@@ -217,3 +217,39 @@ Card Section
 .card-img>img {
     border-radius: 5px;
 }
+
+/* =============================================
+Subscribtion Section
+============================================= */
+
+.subscribtion-section{
+    background-image: url(Flower-Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 128px;
+    padding: 122px;
+    border-radius: 10px;
+}
+
+.subscribtion-section>h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.subscribtion-section>p{
+    margin-bottom: 48px;
+}
+
+.subscribtion-section>input{
+    background-color: #2e2b2b2c;
+    font-size: 16px;
+    margin-right: 16px;
+    width: 700px;
+    border: none;
+    border-radius: 12px;
+    padding: 22px 0 22px 22px;
+}
