@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-lato {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Common Style */
+.btn {
+    background-color: #E55473;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 10px;
+}
+
+.style-p {
+    color: #272727;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.heading-style {
+    color: #272727;
+    font-weight: 700;
+}
+
+/* =============================================
+Header Section
+============================================= */
+
+.header-area {
+    background-color: #f0c3cc;
+    padding-top: 50px;
+    margin-bottom: 178px;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 97px;
+}
+
+.content {
+    width: 708px;
+}
+
+.content>h1 {
+    font-size: 80px;
+}
+
+.content>p {
+    margin: 32px 51px 32px 0;
+}
+
+.hero-img>img {
+    vertical-align: middle;
+}
+
+/* =============================================
+Featured Section
+============================================= */
+
+.featured-section>h2,
+p {
+    text-align: center;
+}
+
+.featured-section>h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.featured-section>p {
+    margin-bottom: 48px;
+}
+
+/* Flower Items */
+
+.flowers {
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.flower {
+    text-align: center;
+}
+
+.img-container {
+    margin-bottom: 32px;
+    border-radius: 50% 50% 0 0;
+}
+
+.img-container>img {
+    vertical-align: middle;
+}
+
+.img-1 {
+    background-color: #a721622f;
+    padding: 110px 76px 0 76px;
+}
+
+.img-2 {
+    background-color: #0598a033;
+    padding: 117px 47px 51px 47px;
+
+}
+
+.img-3 {
+    background-color: #477d112b;
+    padding: 67px 75px 0px 75px;
+}
+
+.flower>h3 {
+    font-size: 24px;
+}
+
+.flower>h3>a {
+    color: #272727;
+    font-weight: 700;
+}
+
+
+/* =============================================
+Services Section
+============================================= */
+
+.services {
+    background-color: #81b34f2b;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    padding: 86px 175px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.servic {
+    text-align: center;
+}
+
+.servic>img {
+    margin-bottom: 24px;
+}
+
+.servic>h2 {
+    font-size: 23px;
+    font-weight: 500;
+}
